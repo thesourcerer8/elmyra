@@ -1,0 +1,192 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/core > lodash'
+    - '@babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/core > @babel/helper-module-transforms > lodash'
+    - parcel-bundler > @babel/traverse > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: parcel-bundler > @babel/traverse > lodash
+    - archiver > async > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: archiver > async > lodash
+    - babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-plugin-transform-class-properties > babel-template > lodash
+    - '@babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@babel/core > @babel/helpers > @babel/traverse > lodash'
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          parcel-bundler > @babel/preset-env >
+          @babel/plugin-transform-block-scoping > lodash
+    - babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-class-properties > babel-template > babel-types
+          > lodash
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-class-properties > babel-helper-function-name >
+          babel-types > lodash
+    - parcel-bundler > babylon-walk > babel-types > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: parcel-bundler > babylon-walk > babel-types > lodash
+    - babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-class-properties > babel-template >
+          babel-traverse > lodash
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-class-properties > babel-helper-function-name >
+          babel-traverse > lodash
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-class-properties > babel-helper-function-name >
+          babel-template > lodash
+    - parcel-bundler > htmlnano > uncss > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: parcel-bundler > htmlnano > uncss > lodash
+    - '@babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/core > @babel/helper-module-transforms >
+          @babel/helper-replace-supers > @babel/traverse > lodash
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          parcel-bundler > @babel/preset-env > @babel/plugin-transform-classes >
+          @babel/helper-define-map > lodash
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-class-properties > babel-helper-function-name >
+          babel-helper-get-function-arity > babel-types > lodash
+    - babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-class-properties > babel-template >
+          babel-traverse > babel-types > lodash
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-class-properties > babel-helper-function-name >
+          babel-traverse > babel-types > lodash
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-class-properties > babel-helper-function-name >
+          babel-template > babel-types > lodash
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-class-properties > babel-helper-function-name >
+          babel-template > babel-traverse > lodash
+    - '@babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/core > @babel/helper-module-transforms >
+          @babel/helper-replace-supers > @babel/traverse > @babel/generator >
+          lodash
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          parcel-bundler > @babel/preset-env >
+          @babel/plugin-transform-parameters > @babel/helper-call-delegate >
+          @babel/traverse > lodash
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-class-properties > babel-helper-function-name >
+          babel-template > babel-traverse > babel-types > lodash
+    - '@babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/core > @babel/helper-module-transforms >
+          @babel/helper-replace-supers > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          parcel-bundler > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse > lodash
+    - parcel-bundler > htmlnano > uncss > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          parcel-bundler > htmlnano > uncss > jsdom > request-promise-native >
+          request-promise-core > lodash
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          parcel-bundler > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - '@babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/core > @babel/helper-module-transforms >
+          @babel/helper-replace-supers > @babel/traverse >
+          @babel/helper-function-name > @babel/template > @babel/types > lodash
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          parcel-bundler > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/types > lodash
+    - parcel-bundler > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-10-25T08:09:12.639Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          parcel-bundler > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
