@@ -5,7 +5,7 @@
   },
   "description": "A blender-based rapid iterative visualization system",
   "dependencies": {
-    "@babel/core": "^7.9.0",
+    "@babel/core": "^7.26.10",
     "@babel/preset-react": "^7.9.4",
     "@primer/octicons-react": "^9.6.0",
     "archiver": "^3.1.1",
